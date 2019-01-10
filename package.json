@@ -1,0 +1,28 @@
+{
+  "name": "lodown-samkeer1",
+  "version": "1.0.2",
+  "description": "An npm functional programming library project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samkeer1/lodown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samkeer1/lodown/issues"
+  },
+  "homepage": "https://github.com/Samkeer1/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.2"
+  }
+}
